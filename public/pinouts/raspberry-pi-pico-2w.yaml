@@ -1,7 +1,7 @@
-title: "Raspberry Pi Pico"
+title: "Raspberry Pi Pico 2W"
 
 # dimensions counted in pins
-width: 9
+width: 10
 height: 20
 
 # special pins
@@ -33,13 +33,16 @@ types:
 
 image:
   front:
-    src: raspberry-pi-pico.front.png
-    top: -170
-    bottom: -20
-  back:
-    src: raspberry-pi-pico.back.png
-    top: -130
+    src: raspberry-pi-pico-2w.front.png
+    top: -190
     bottom: -30
+  back:
+    src: raspberry-pi-pico-2w.back.png
+    top: -200
+    bottom: -30
+
+offsets:
+  bottom: 7
 
 # Define the pins (label:type), use empty entries when offsets are needed
 pins:
@@ -88,6 +91,8 @@ pins:
     - ["GPIO16:gpio", "SPI0 RX:spi_default", "I2C0 SDA:i2c", "UART0 TX:uart"]
 
   bottom:
+    -
+    -
     -
     -
     -
